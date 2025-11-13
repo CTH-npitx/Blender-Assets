@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3BF5CE82-C291-48E3-B3E2-FEC4E848AF1B}</ProjectGuid>
+    <ProjectGuid>{C4E9745F-E5CD-4CDE-B343-88E19F339A83}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Blender_Assets</RootNamespace>
-    <AssemblyName>Blender-Assets</AssemblyName>
+    <RootNamespace>Files</RootNamespace>
+    <AssemblyName>Files</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -63,7 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Files.csproj" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
